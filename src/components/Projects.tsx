@@ -4,37 +4,48 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import project1 from "@/assets/project1.jpg";
 import project2 from "@/assets/project2.jpg";
-import project3 from "@/assets/project3.jpg";
+import project3 from "@/assets/image.jpg";
+
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "Analytics Dashboard",
-      description: "A comprehensive analytics dashboard built with React and D3.js, featuring real-time data visualization and interactive charts.",
-      image: project1,
-      tags: ["React", "TypeScript", "D3.js", "Node.js", "PostgreSQL"],
+      title: "AI-Presentation-Generator",
+      description: "This project creates a PowerPoint presentation with slides that include enhanced content and images generated using OpenAI's API.",
+      
+      tags: [ "openai", "python"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/YuvanRajMathan/AI_Presentation_Generator"
     },
     {
       id: 2,
-      title: "E-Commerce Platform",
-      description: "Full-stack e-commerce solution with payment integration, inventory management, and admin dashboard.",
-      image: project2,
-      tags: ["Next.js", "Stripe", "Prisma", "Tailwind CSS", "Vercel"],
+      title: "Fine-Food-Reviews-Clustering",
+      description: "a Python project that uses OpenAI's API to generate embeddings for text data, cluster the embeddings using K-means clustering, and visualize the clusters using t-SNE dimensionality reduction.",
+      tags: [ "openai", "python","pandas", "numpy"],
       liveUrl: "#",
-      githubUrl: "#"
+      githubUrl: "https://github.com/YuvanRajMathan/fine-food-reviews-clustering"
     },
     {
       id: 3,
-      title: "Mobile Fitness App",
-      description: "Cross-platform mobile app for fitness tracking with workout plans, progress monitoring, and social features.",
-      image: project3,
-      tags: ["React Native", "Firebase", "Redux", "Expo", "TypeScript"],
+      title: "Online-Food Delviery Website",
+      description: "A Online-Food Delivery App with Frontend Technology ",
+      
+      tags: ["React.js", "Stripe", "Html", "Tailwind CSS", "Vercel", "CSS"],
       liveUrl: "#",
-      githubUrl: "#"
-    }
+      githubUrl: "https://github.com/YuvanRajMathan/food_service"
+    },
+    {
+      id: 4,
+      title: "POSYDON- Open Source Contribution",
+      description: "POSYDON is a next-generation single- and binary-star population synthesis framework, incorporating fully self-consistent, state-of-the-art stellar structure and evolution modelling using the MESA code, throughout the evolution of both binary components ",
+      
+      tags: ["python", "pandas", "numpy"],
+      liveUrl: "#",
+      githubUrl: "https://github.com/YuvanRajMathan/POSYDON"
+    },
+
+    
   ];
 
   return (
@@ -60,7 +71,7 @@ const Projects = () => {
               >
                 <div className="relative overflow-hidden rounded-t-lg">
                   <img
-                    src={project.image}
+                    
                     alt={project.title}
                     className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
                   />

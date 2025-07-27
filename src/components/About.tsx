@@ -20,15 +20,16 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                I'm a passionate full-stack developer with over 5 years of experience 
-                building modern web applications. I love creating clean, efficient code 
-                and designing beautiful user interfaces that provide exceptional user experiences.
+                I’m a cloud-focused developer with strong experience in AWS, where I handle deployment, automation, and infrastructure management. 
+                My core strength lies in MERN stack backend development, where I build scalable server-side applications and APIs. 
+                I’m also comfortable working in Linux environments, managing systems and debugging effectively
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                When I'm not coding, you can find me exploring new technologies, 
-                contributing to open-source projects, or sharing knowledge with the 
-                developer community through blogs and speaking engagements.
+                Alongside backend and cloud, I’ve developed mobile apps using Flutter, focusing on smooth UI and cross-platform functionality. 
+                I actively contribute to open-source projects, collaborating with the community to fix bugs, enhance features, and support tools that solve real-world problems.
+
+
               </p>
 
               <div className="pt-4">
@@ -36,21 +37,22 @@ const About = () => {
                   What I Do
                 </h3>
                 <ul className="space-y-3 text-muted-foreground">
+                  
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>Full-Stack Web Development</span>
+                    <span>MERN-Backend</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>UI/UX Design & Prototyping</span>
+                    <span>Flutter App Development</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>Mobile App Development</span>
+                    <span>Cloud Computing</span>
                   </li>
                   <li className="flex items-center space-x-3">
                     <div className="w-2 h-2 bg-primary rounded-full"></div>
-                    <span>Technical Consulting</span>
+                    <span>Open Source Contribution</span>
                   </li>
                 </ul>
               </div>

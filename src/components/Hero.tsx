@@ -26,12 +26,12 @@ const Hero = () => {
           <h1 className="font-display text-5xl md:text-7xl font-bold leading-tight">
             <span className="block text-foreground">Hi, I'm</span>
             <span className="block bg-gradient-primary bg-clip-text text-transparent">
-              John Doe
+              Yuvan Raj Mathan
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Full-Stack Developer & UI/UX Designer creating exceptional digital experiences
+            a Full Stack & Cloud Developer with hands-on experience in MERN stack, AWS, Linux systems, and Flutter app development
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center pt-8">
